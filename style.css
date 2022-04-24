@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #1B162B;
+}
+header {
+    top: 3rem;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 12.5rem;
+}
+header a {
+    text-decoration: none;
+}
+header .logoicon span {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: white;
+}
+header .logoicon i {
+    color: white;
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+}
+.navtaps .tap{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 3.125rem;
+    font-size: 1.25rem;
+    transition: 0.5s ease;
+}
+header a {
+    margin: 0rem;
+}
+header img {
+    width: 3rem;
+    height: 3rem;
+}
+.navtaps .tap:hover{
+    border-bottom: white solid 0.1rem;
+}
+header .sign {
+    text-decoration: none;
+    color: #f0f0f0;
+    background-color: #347571;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0.2rem 2rem;
+    margin-left: 3.125rem;
+    border-radius: 3.125rem;
+    transition: 0.7s ease;
+}
+header .sign:hover {
+    transform: scale(1.1);
+}
+.main {
+    padding-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.main .img {
+    width: 38.25rem;
+    height: 46rem;
+    overflow: hidden;
+}
+.main .img2 {
+    margin-right: 1rem;
+    width: 78rem;
+}
